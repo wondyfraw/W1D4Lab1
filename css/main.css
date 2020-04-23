@@ -1,0 +1,27 @@
+fieldset {
+    border: solid 2px gray !important;
+    padding: 0 10px 10px 10px;
+    border-bottom: none;
+    /*background-color: #f9f9f9;*/
+}
+
+legend {
+    width: auto !important;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+body{
+    background-color: #f9f9f9;
+    padding:5em;
+}
+.headerTitle{
+    text-align: center;
+}
+label , legend{
+    font-family: Verdana, Tahoma, "or any sans-serif";
+    font-size: 15pt;
+}
+.align-header-text{
+    text-align: center;
+}

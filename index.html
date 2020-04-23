@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="css/main.css" rel="stylesheet">
+    <title>W1D4 WAP Lab Assignment</title>
+</head>
+<body>
+ <div class="container">
+      <h2 class="align-header-text">Fill Longin Form</h2>
+     <fieldset>
+         <legend>Longin Form</legend>
+    <form action="index.html" method="post">
+        <div class="form-group">
+        <label>Email address</label>
+        <input type="email" class="form-control" id="emailInput" placeholder="Enter email"
+           required pattern="[0-9a-z._+\-]+@[a-z0-9.\-]+\.[a-zA-Z]{2,3}" title="Enter your email address">
+
+        </div>
+        <div class="form-group">
+        <label>Password</label>
+        <input type="password" pattern="(?=\d+)(?=[a-z]*)(?=[A-Z]*).{10,}" class="form-control" placeholder="password"
+             required title="Must contain at least one number and one uppercase and lowercase letter, and at least 10 or
+               more characters">
+        </div>
+        <div class="form-group">
+            <label for="urlInput">Home Page</label>
+            <input type="url" class="form-control" id="urlInput" name="url" required placeholder="Enter URL" pattern="https?://.+" title="Type the URL"/>
+        </div>
+        <div class="form-group form-check">
+        <input type="checkbox" id="checkboxMe" class="form-check-input>
+        <label for="checkboxMe">Check me out</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+     </fieldset>
+ </div>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
